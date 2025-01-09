@@ -21,7 +21,7 @@ const CATIA_desginContest = () => {
     id: 1,
     image: eventImage, // Replace with actual image URL
     rating: "team : 2",
-    title: "CATIA-Desgin Contest",
+    title: "CATIA-Design Contest",
   };
 
   return (
