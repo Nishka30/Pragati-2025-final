@@ -52,7 +52,7 @@ const CATIA_desginContest = () => {
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
             <a href="https://forms.gle/twqYmDEbSVvmzadr7"><button className="btn">Register</button></a>
-              <a href=""><button className="btn">Rule Book</button></a>
+              <a href="https://drive.google.com/file/d/1f9-RA-hRF9j0rmmT5Llt3AV4JfPyh1SA/view?usp=drive_link"><button className="btn">Rule Book</button></a>
               <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
             </div>
           </div>

@@ -52,7 +52,7 @@ const CODEFIESTA = () => {
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
             <a href="https://forms.gle/5Bhri1JWLgJKZAve6"><button className="btn">Register</button></a>
-              <a href=""><button className="btn">Rule Book</button></a>
+              <a href="https://drive.google.com/file/d/1oHbuXi6-a8xXTd0AaPTt-mW-ji4hPLQp/view?usp=drive_link"><button className="btn">Rule Book</button></a>
               <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
             </div>
           </div>
