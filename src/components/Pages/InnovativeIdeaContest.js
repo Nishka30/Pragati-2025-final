@@ -61,7 +61,7 @@ const InnovativeIdeaContest = () => {
               <a href="https://forms.gle/LdnRcMHx8UmEeawCA">
                 <button className="btn">Register</button>
               </a>
-              <a href="https://drive.google.com/file/d/1wr1miLPm4FNuaMEZjqn1_tcs2OeHr6Vn/view?usp=drive_link">
+              <a href="https://drive.google.com/file/d/1_mmmtFnqOhsf2HdcMyYZFivKkAYLtApw/view?usp=sharing">
                 <button className="btn">Rule Book</button>
               </a>
               <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
