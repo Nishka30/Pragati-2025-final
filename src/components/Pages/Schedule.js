@@ -36,9 +36,8 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              From 09:00 am - 09:30 am, participant registration will continue
-              at Amtala in MCKVIE College campus. Participants are requested to
-              bring valid college ID to register at the registration desk.
+              Inauguration program of PRAGATI 2025, the annual techfest of
+              MCKVIE will begin at the Seminar Hall (Room: B312).
             </li>
           </ul>
         ),
@@ -48,7 +47,7 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INNOVATIVE MODEL</Link>
             </li>
             <li>
               <Link to="/MATH_MANIA">MATH MANIA</Link>
@@ -70,7 +69,7 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INNOVATIVE MODEL</Link>
             </li>
             <li>
               <Link to="/MATH_MANIA">MATH MANIA</Link>
@@ -92,7 +91,7 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INNOVATIVE MODEL</Link>
             </li>
             <li>
               <Link to="/MATH_MANIA">MATH MANIA</Link>
@@ -117,7 +116,7 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INNOVATIVE MODEL</Link>
             </li>
             <li>
               <Link to="/MATH_MANIA">MATH MANIA</Link>
@@ -139,7 +138,7 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INNOVATIVE MODEL</Link>
             </li>
             <li>
               <Link to="/MATH_MANIA">MATH MANIA</Link>
@@ -161,7 +160,7 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              <Link to="/InnovativeModelCompetition">INOVATIVE MODEL</Link>
+              <Link to="/InnovativeModelCompetition">INNOVATIVE MODEL</Link>
             </li>
             <li>
               <Link to="/MATH_MANIA">MATH MANIA</Link>

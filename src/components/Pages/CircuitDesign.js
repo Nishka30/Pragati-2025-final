@@ -53,7 +53,7 @@ const CircuitDesign = () => {
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
             <a href="https://forms.gle/wFgrw2MA5ssX5As7A"><button className="btn">Register</button></a>
-              <a href=""><button className="btn">Rule Book</button></a>
+              <a href="https://drive.google.com/file/d/1tlMDWV5nhTVPsWQayR2ldt9nVLYLrCnT/view?usp=drive_link"><button className="btn">Rule Book</button></a>
               <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
             </div>
           </div>

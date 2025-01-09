@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 import "./css/Inner-Event.css";
 import Background from "./Background";
@@ -11,16 +9,18 @@ const TechnicalPosterPresentation = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "This is an event where you present your frame of reference towards the problem statement and come with effective ways or solutions with the help of proven resources.",
+    About:
+      "This is an event where you present your frame of reference towards the problem statement and come with effective ways or solutions with the help of proven resources.",
     Timeline: "",
-    RegistrationFee: "MCKVIE Students: 100rs/Team & Outside Students: 200rs/Team",
+    RegistrationFee:
+      "MCKVIE Students: 100rs/Team & Outside Students: 200rs/Team",
     Contacts: "For any query contact:",
   };
 
   const card = {
     id: 1,
     image: eventImage, // Replace with actual image URL
-    rating: "team : 1-3",
+    rating: "team : 1-4",
     title: "Technical Poster Presentation",
   };
 
@@ -53,9 +53,15 @@ const TechnicalPosterPresentation = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/qj8CYqyaVZVj6gcP6"><button className="btn">Register</button></a>
-              <a href=""><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/qj8CYqyaVZVj6gcP6">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1Dv67wc6FxhlPkccJo-TQVWm0zXnvlrzH/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>
