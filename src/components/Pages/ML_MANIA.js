@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./css/Inner-Event.css";
 import Background from "./Background";
@@ -10,9 +9,11 @@ const ML_MANIA = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "With a blend of quizzes and hands-on coding, teams of two will navigate the complexities of machine learning, from foundational theories to applied projects. Test your skills in Python, impress the judges with innovative solutions, and vie for the top spot in this machine learning showdown.",
-    Timeline: "",
-    RegistrationFee: "MCKVIE Students: 50rs/Head & Outside Students: 100rs/Head",
+    About:
+      "With a blend of quizzes and hands-on coding, teams of two will navigate the complexities of machine learning, from foundational theories to applied projects. Test your skills in Python, impress the judges with innovative solutions, and vie for the top spot in this machine learning showdown.",
+    Timeline: "10:00 am to 05:00 pm , 4th February .",
+    RegistrationFee:
+      "MCKVIE Students: 50rs/Head & Outside Students: 100rs/Head",
     Contacts: "For any query contact:",
   };
 
@@ -52,9 +53,15 @@ const ML_MANIA = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/gS6k8LUjyFBbjs2W7"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/1hWeS5tX5dAQdOs3mUniCOQODN85SHhyy/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/gS6k8LUjyFBbjs2W7">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1hWeS5tX5dAQdOs3mUniCOQODN85SHhyy/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

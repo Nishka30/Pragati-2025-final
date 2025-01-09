@@ -9,10 +9,12 @@ const CATIA_desginContest = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Gear up for a drafting duel in 'Design with AutoCAD/Catia'! This challenge invites pairs of aspiring engineers to unleash their design dexterity and architectural acumen. Armed only with traditional drafting tools—leave your cell phones behind—you'll race against time to sketch the future.",
-    Timeline: "10:00 a.m. - 01:00 p.m., 6th February",
-    RegistrationFee: " MCKVIE STUDENTS: Rs. 50/head and EXTERNAL STUDENTS: Rs. 100/head ",
-    Contacts: "For any query contact: SOHAMDEEP DAS:+919330339458",
+    About:
+      "Gear up for a drafting duel in 'Design with AutoCAD/Catia'! This challenge invites pairs of aspiring engineers to unleash their design dexterity and architectural acumen. Armed only with traditional drafting tools—leave your cell phones behind—you'll race against time to sketch the future.",
+    Timeline: "10:00 a.m. - 01:00 p.m., 4th February",
+    RegistrationFee:
+      " MCKVIE STUDENTS: Rs. 50/head and EXTERNAL STUDENTS: Rs. 100/head ",
+    Contacts: "Sohamdeep Das:- +91-9330339458    ",
   };
 
   const card = {
@@ -51,9 +53,15 @@ const CATIA_desginContest = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/twqYmDEbSVvmzadr7"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/1f9-RA-hRF9j0rmmT5Llt3AV4JfPyh1SA/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/twqYmDEbSVvmzadr7">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1f9-RA-hRF9j0rmmT5Llt3AV4JfPyh1SA/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

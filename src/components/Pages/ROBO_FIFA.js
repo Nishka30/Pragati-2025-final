@@ -9,9 +9,11 @@ const ROBO_FIFA = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Design a robot which plays soccer. The robot would compete against others in 1-1 matches. Arena Specifications: -Will be SURPRISE.",
-    Timeline: "",
-    RegistrationFee: "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
+    About:
+      "Design a robot which plays soccer. The robot would compete against others in 1-1 matches. Arena Specifications: -Will be SURPRISE.",
+    Timeline: "10:00 am to 05:00 pm , 4th February .",
+    RegistrationFee:
+      "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
     Contacts: "For any query contact:",
   };
 
@@ -51,9 +53,15 @@ const ROBO_FIFA = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/kB3RmRnx8EQzRxY99"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/1PUxYabxxJBKCwY00nrFZc8SNm4Yi4jPw/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/kB3RmRnx8EQzRxY99">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1PUxYabxxJBKCwY00nrFZc8SNm4Yi4jPw/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./css/Inner-Event.css";
 import Background from "./Background";
@@ -6,13 +5,12 @@ import Background2 from "./Background2";
 import Footer from "../Footer";
 import eventImage from "./../images/eventps/EnigmaP.png"; // Import the image
 
-
 const ENIGMA = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
     About: "",
-    Timeline: "",
+    Timeline: "10:00 am to 05:00 pm , 5th February .",
     RegistrationFee: "",
     Contacts: "For any query contact:",
   };
@@ -53,9 +51,15 @@ const ENIGMA = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/JXPuaw1Dak3pRRav8"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/1tKoZnsN9OTrdqHcm1ywhRv5ob8rW5SE4/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/JXPuaw1Dak3pRRav8">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1tKoZnsN9OTrdqHcm1ywhRv5ob8rW5SE4/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

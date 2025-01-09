@@ -9,10 +9,13 @@ const InnovativeModelCompetition = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "The article submission guidelines specify domains like healthcare, agriculture, robotics, renewable energy, IoT, mobile and web app development, smart education, environment sustainability, future mobility, sensors, VLSI, and more. Submissions must follow a structured format including title, domain, problem definition, theoretical background, implementation, solution uniqueness, and a presentation with specific content",
-    Timeline: "",
-    RegistrationFee: "MCKVIE Students: 100rs/Team & Outside Students: 200rs/Team",
-    Contacts: "For any query contact: Kunal Das: +91 6289974806 Parna Biswas: +917439453055",
+    About:
+      "The article submission guidelines specify domains like healthcare, agriculture, robotics, renewable energy, IoT, mobile and web app development, smart education, environment sustainability, future mobility, sensors, VLSI, and more. Submissions must follow a structured format including title, domain, problem definition, theoretical background, implementation, solution uniqueness, and a presentation with specific content",
+    Timeline: "10:00 am to 05:00 pm , 4th February .",
+    RegistrationFee:
+      "MCKVIE Students: 100rs/Team & Outside Students: 200rs/Team",
+    Contacts:
+      "For any query contact: Kunal Das: +91 6289974806 Parna Biswas: +917439453055",
   };
 
   const card = {
@@ -51,9 +54,15 @@ const InnovativeModelCompetition = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/onAQNhVQVAvDmcni9"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/14BZsJsmr71J1pZUM-Z5uMRgjYdG5825b/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/onAQNhVQVAvDmcni9">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/14BZsJsmr71J1pZUM-Z5uMRgjYdG5825b/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

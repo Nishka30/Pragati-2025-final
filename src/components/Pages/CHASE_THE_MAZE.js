@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./css/Inner-Event.css";
 import Background from "./Background";
@@ -10,9 +9,11 @@ const CHASE_THE_MAZE = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "To build a robot that is able to navigate out of the maze in the quickest time possible from the designated starting point to the ending point.",
-    Timeline: "",
-    RegistrationFee: "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
+    About:
+      "To build a robot that is able to navigate out of the maze in the quickest time possible from the designated starting point to the ending point.",
+    Timeline: "10:00 am to 05:00 pm , 5th February .",
+    RegistrationFee:
+      "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
     Contacts: "For any query contact:",
   };
 
@@ -52,9 +53,15 @@ const CHASE_THE_MAZE = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/16KiXi9v59opxndb7"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/1J4mWrKWCL2adRpLlP_m_KSY98MjRblg8/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/16KiXi9v59opxndb7">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1J4mWrKWCL2adRpLlP_m_KSY98MjRblg8/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

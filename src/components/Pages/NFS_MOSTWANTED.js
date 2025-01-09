@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./css/Inner-Event.css";
 import Background from "./Background";
@@ -6,15 +5,16 @@ import Background2 from "./Background2";
 import Footer from "../Footer";
 import eventImage from "./../images/eventps/Nfs.jpg"; // Import the image
 
-
 const NFS_MOSTWANTED = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Dive into the adrenaline-pumping world of NFS Most Wanted, where you outrun rivals and evade cops in heart-stopping street races. Claim the top spot on the blacklist in this ultimate pursuit of speed and freedom!",
-    Timeline: "",
-    RegistrationFee: "MCKVIE Students: 50rs/Head & Outside Students: 100rs/Head",
-    Contacts: "For any query contact:",
+    About:
+      "Dive into the adrenaline-pumping world of NFS Most Wanted, where you outrun rivals and evade cops in heart-stopping street races. Claim the top spot on the blacklist in this ultimate pursuit of speed and freedom!",
+    Timeline: "02:00 pm to 05:00 pm , 4th February .",
+    RegistrationFee:
+      "MCKVIE Students: 50rs/Head & Outside Students: 100rs/Head",
+    Contacts: "",
   };
 
   const card = {
@@ -53,9 +53,15 @@ const NFS_MOSTWANTED = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/Zao4vLGjBJ461tjY9"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/18efLt01d-7z3afATKhwQcu0eoi7MCNce/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/Zao4vLGjBJ461tjY9">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/18efLt01d-7z3afATKhwQcu0eoi7MCNce/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

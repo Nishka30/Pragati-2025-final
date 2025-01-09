@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./css/Inner-Event.css";
 import Background from "./Background";
@@ -10,10 +9,16 @@ const QUIZOMANIA = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Get ready to dive into the most thrilling⚡quiz competition as Quizomania, presented by PRAGATI 2025, the Annual Technical Fest of MCKV Institute of Engineering (MCKVIE).",
-    Timeline: "",
+    About:
+      "Get ready to dive into the most thrilling⚡quiz competition as Quizomania, presented by PRAGATI 2025, the Annual Technical Fest of MCKV Institute of Engineering (MCKVIE).",
+    Timeline: "10:00 am to 01:00 pm , 6th February .",
     RegistrationFee: "₹50 per head (in-house & external participants).",
-    Contacts: "For any query contact: Semanti Ghosh: +91 9748662318 Rohit Kumar: +91 6207322327",
+    Contacts: (
+      <ul>
+        <li>Semanti Ghosh: +91 9748662318</li>
+        <li>Rohit Kumar: +91 6207322327</li>
+      </ul>
+    ),
   };
 
   const card = {
@@ -52,9 +57,15 @@ const QUIZOMANIA = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-              <a href="https://forms.gle/9DxVCV2iSZWxrh257"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/1v7QRWUphBUOeXadenxC1NBwMCC4NHwy0/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/9DxVCV2iSZWxrh257">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1v7QRWUphBUOeXadenxC1NBwMCC4NHwy0/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

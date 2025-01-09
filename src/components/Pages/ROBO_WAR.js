@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./css/Inner-Event.css";
 import Background from "./Background";
@@ -10,9 +9,11 @@ const ROBO_WAR = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Build a robot whose task is to push the opposing robot out of the circular ring or flip it over. Different robots compete one-on-one against each other in a knock- out tournament.",
-    Timeline: "",
-    RegistrationFee: "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
+    About:
+      "Build a robot whose task is to push the opposing robot out of the circular ring or flip it over. Different robots compete one-on-one against each other in a knock- out tournament.",
+    Timeline: "10:00 am to 05:00 pm , 5th February .",
+    RegistrationFee:
+      "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
     Contacts: "For any query contact:",
   };
 
@@ -52,9 +53,15 @@ const ROBO_WAR = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/d1HozuP9XbEw1XNs6"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/1c9gHWr57iblvGuETnnEtxu7jovzqHskO/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/d1HozuP9XbEw1XNs6">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1c9gHWr57iblvGuETnnEtxu7jovzqHskO/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

@@ -9,10 +9,11 @@ const CODEFIESTA = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "Code Fiesta: Where coding duos battle in a fast-paced quiz and intense problem-solving showdown. Master MCQs, conquer coding challenges in C, C++, or Java, and outpace competitors to emerge victorious.",
-    Timeline: "",
+    About:
+      "Code Fiesta: Where coding duos battle in a fast-paced quiz and intense problem-solving showdown. Master MCQs, conquer coding challenges in C, C++, or Java, and outpace competitors to emerge victorious.",
+    Timeline: "10:00 am to 05:00 pm , 5th February .",
     RegistrationFee: "50rs/Head & Outside Students: 100rs/Head",
-    Contacts: "For any query contact:",
+    Contacts: "",
   };
 
   const card = {
@@ -51,9 +52,15 @@ const CODEFIESTA = () => {
             </div>
             <p>{tabsContent[activeTab]}</p>
             <div className="button-group">
-            <a href="https://forms.gle/5Bhri1JWLgJKZAve6"><button className="btn">Register</button></a>
-              <a href="https://drive.google.com/file/d/1oHbuXi6-a8xXTd0AaPTt-mW-ji4hPLQp/view?usp=drive_link"><button className="btn">Rule Book</button></a>
-              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing"><button className="btn">General Rule</button></a>
+              <a href="https://forms.gle/5Bhri1JWLgJKZAve6">
+                <button className="btn">Register</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1oHbuXi6-a8xXTd0AaPTt-mW-ji4hPLQp/view?usp=drive_link">
+                <button className="btn">Rule Book</button>
+              </a>
+              <a href="https://drive.google.com/file/d/1CeJkurMsE851m-eSa88T71toqM5iU6sS/view?usp=sharing">
+                <button className="btn">General Rule</button>
+              </a>
             </div>
           </div>
         </div>

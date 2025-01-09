@@ -11,7 +11,7 @@ const TechnicalPosterPresentation = () => {
   const tabsContent = {
     About:
       "This is an event where you present your frame of reference towards the problem statement and come with effective ways or solutions with the help of proven resources.",
-    Timeline: "",
+    Timeline: "02:00 pm to 05:00 pm , 4th February .",
     RegistrationFee:
       "MCKVIE Students: 100rs/Team & Outside Students: 200rs/Team",
     Contacts: "For any query contact:",
