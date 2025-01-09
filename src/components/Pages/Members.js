@@ -67,22 +67,6 @@ export const Members = () => {
                         >
                           <FaWhatsapp />
                         </a>
-                        <a
-                          href="https://instagram.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon instagram"
-                        >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -107,22 +91,6 @@ export const Members = () => {
                           className="social-icon whatsapp"
                         >
                           <FaWhatsapp />
-                        </a>
-                        <a
-                          href="https://instagram.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon instagram"
-                        >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
                         </a>
                       </div>
                     </div>
@@ -149,22 +117,6 @@ export const Members = () => {
                         >
                           <FaWhatsapp />
                         </a>
-                        <a
-                          href="https://instagram.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon instagram"
-                        >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -189,22 +141,6 @@ export const Members = () => {
                           className="social-icon whatsapp"
                         >
                           <FaWhatsapp />
-                        </a>
-                        <a
-                          href="https://www.instagram.com/rohit..writes_?igsh=Zm1hMnI3aGZvZXRx"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon instagram"
-                        >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com/Rohitsaw6207"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
                         </a>
                       </div>
                     </div>
@@ -231,22 +167,6 @@ export const Members = () => {
                         >
                           <FaWhatsapp />
                         </a>
-                        <a
-                          href="https://instagram.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon instagram"
-                        >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -271,22 +191,6 @@ export const Members = () => {
                           className="social-icon whatsapp"
                         >
                           <FaWhatsapp />
-                        </a>
-                        <a
-                          href="https://instagram.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon instagram"
-                        >
-                          <FaInstagram />
-                        </a>
-                        <a
-                          href="https://github.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon github"
-                        >
-                          <FaGithub />
                         </a>
                       </div>
                     </div>
