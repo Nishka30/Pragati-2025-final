@@ -28,7 +28,7 @@ const CodingAndEngineering = () => {
               />
               <Card
                 image={CATIA_desginContest}
-                title="CATIA - DESIGN COMPETITION"
+                title="Design Contest with CATIA"
                 description="TEAM:: (2), CODING AND ENGINEERING"
               link="/CATIA_desginContest" // unique link for this card
               />

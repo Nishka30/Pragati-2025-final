@@ -37,7 +37,7 @@ const CATIA_desginContest = () => {
           </div>
           <div className="info">
             {/* Added Heading */}
-            <h3>CATIA-Desgin Contest</h3>
+            <h3>Design Contest with CATIA</h3>
             <div className="tabs">
               {Object.keys(tabsContent).map((tab) => (
                 <button
