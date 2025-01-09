@@ -12,8 +12,13 @@ const InnovativeIdeaContest = () => {
     About:
       "The guidelines ask for articles in specific topics and a specific format for new ideas. Presentations should be in PowerPoint and include the problem, solution, and why the solution is unique and possible.",
     Timeline: "10:00 am to 05:00 pm , 5th February .",
-    RegistrationFee:
-      "MCKVIE STUDENTS : 100rs/Team & OUTSIDE Students : 200rs/Team.",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹100/Team </li>
+        <li> EXTERNAL STUDENTS: ₹200/Team </li>
+      </ul>
+    ),
+
     Contacts: "For any query contact: ",
   };
 

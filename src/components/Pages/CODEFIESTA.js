@@ -12,7 +12,12 @@ const CODEFIESTA = () => {
     About:
       "Code Fiesta: Where coding duos battle in a fast-paced quiz and intense problem-solving showdown. Master MCQs, conquer coding challenges in C, C++, or Java, and outpace competitors to emerge victorious.",
     Timeline: "10:00 am to 05:00 pm , 5th February .",
-    RegistrationFee: "50rs/Head & Outside Students: 100rs/Head",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹50/Head </li>
+        <li> EXTERNAL STUDENTS: ₹100/Head </li>
+      </ul>
+    ),
     Contacts: "",
   };
 

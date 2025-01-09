@@ -12,8 +12,12 @@ const ROBO_WAR = () => {
     About:
       "Build a robot whose task is to push the opposing robot out of the circular ring or flip it over. Different robots compete one-on-one against each other in a knock- out tournament.",
     Timeline: "10:00 am to 05:00 pm , 5th February .",
-    RegistrationFee:
-      "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹100/Team </li>
+        <li> EXTERNAL STUDENTS: ₹400/Team </li>
+      </ul>
+    ),
     Contacts: "For any query contact:",
   };
 

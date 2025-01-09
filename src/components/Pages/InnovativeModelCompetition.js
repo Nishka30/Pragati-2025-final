@@ -12,8 +12,12 @@ const InnovativeModelCompetition = () => {
     About:
       "The article submission guidelines specify domains like healthcare, agriculture, robotics, renewable energy, IoT, mobile and web app development, smart education, environment sustainability, future mobility, sensors, VLSI, and more. Submissions must follow a structured format including title, domain, problem definition, theoretical background, implementation, solution uniqueness, and a presentation with specific content",
     Timeline: "10:00 am to 05:00 pm , 4th February .",
-    RegistrationFee:
-      "MCKVIE Students: 100rs/Team & Outside Students: 200rs/Team",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹100/Team </li>
+        <li> EXTERNAL STUDENTS: ₹200/Team </li>
+      </ul>
+    ),
     Contacts:
       "For any query contact: Kunal Das: +91 6289974806 Parna Biswas: +917439453055",
   };

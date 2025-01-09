@@ -11,7 +11,7 @@ const ENIGMA = () => {
   const tabsContent = {
     About: "",
     Timeline: "10:00 am to 05:00 pm , 5th February .",
-    RegistrationFee: "",
+    RegistrationFee: "₹50 per head (in-house & external participants).",
     Contacts: "For any query contact:",
   };
 

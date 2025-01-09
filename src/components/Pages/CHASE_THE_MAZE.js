@@ -12,8 +12,12 @@ const CHASE_THE_MAZE = () => {
     About:
       "To build a robot that is able to navigate out of the maze in the quickest time possible from the designated starting point to the ending point.",
     Timeline: "10:00 am to 05:00 pm , 5th February .",
-    RegistrationFee:
-      "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹100/Team </li>
+        <li> EXTERNAL STUDENTS: ₹400/Team </li>
+      </ul>
+    ),
     Contacts: "For any query contact:",
   };
 

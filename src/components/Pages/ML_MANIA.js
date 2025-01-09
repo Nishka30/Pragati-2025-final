@@ -12,8 +12,12 @@ const ML_MANIA = () => {
     About:
       "With a blend of quizzes and hands-on coding, teams of two will navigate the complexities of machine learning, from foundational theories to applied projects. Test your skills in Python, impress the judges with innovative solutions, and vie for the top spot in this machine learning showdown.",
     Timeline: "02:00 pm to 05:00 pm , 5th February .",
-    RegistrationFee:
-      "MCKVIE Students: 50rs/Head & Outside Students: 100rs/Head",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹50/Head </li>
+        <li> EXTERNAL STUDENTS: ₹100/Head </li>
+      </ul>
+    ),
     Contacts: "For any query contact:",
   };
 

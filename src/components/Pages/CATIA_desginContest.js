@@ -12,8 +12,12 @@ const CATIA_desginContest = () => {
     About:
       "Gear up for a drafting duel in 'Design with AutoCAD/Catia'! This challenge invites pairs of aspiring engineers to unleash their design dexterity and architectural acumen. Armed only with traditional drafting tools—leave your cell phones behind—you'll race against time to sketch the future.",
     Timeline: "10:00 a.m. - 01:00 p.m., 4th February",
-    RegistrationFee:
-      " MCKVIE STUDENTS: Rs. 50/head and EXTERNAL STUDENTS: Rs. 100/head ",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹50/Head </li>
+        <li> EXTERNAL STUDENTS: ₹100/Head </li>
+      </ul>
+    ),
     Contacts: "Sohamdeep Das:- +91-9330339458    ",
   };
 

@@ -12,8 +12,12 @@ const ROBO_FIFA = () => {
     About:
       "Design a robot which plays soccer. The robot would compete against others in 1-1 matches. Arena Specifications: -Will be SURPRISE.",
     Timeline: "10:00 am to 05:00 pm , 4th February .",
-    RegistrationFee:
-      "MCKVIE Students: 100rs/Team & Outside Students: 400rs/Team",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹100/Team </li>
+        <li> EXTERNAL STUDENTS: ₹400/Team </li>
+      </ul>
+    ),
     Contacts: "For any query contact:",
   };
 

@@ -12,8 +12,12 @@ const NFS_MOSTWANTED = () => {
     About:
       "Dive into the adrenaline-pumping world of NFS Most Wanted, where you outrun rivals and evade cops in heart-stopping street races. Claim the top spot on the blacklist in this ultimate pursuit of speed and freedom!",
     Timeline: "02:00 pm to 05:00 pm , 4th February .",
-    RegistrationFee:
-      "MCKVIE Students: 50rs/Head & Outside Students: 100rs/Head",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹50/Head </li>
+        <li> EXTERNAL STUDENTS: ₹100/Head </li>
+      </ul>
+    ),
     Contacts: "",
   };
 

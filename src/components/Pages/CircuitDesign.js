@@ -12,7 +12,12 @@ const CircuitDesign = () => {
     About:
       "Whether solo or in teams of up to three, you're tasked with engineering innovative circuits using provided analog and digital components. With a strict two-hour timeline, precision, and ingenuity are key. Early submissions earn time bonuses, useful for tiebreaks.",
     Timeline: "10:00 am to 01:00 pm , 4th February .",
-    RegistrationFee: "MCKVIE Students: 50rs/Head & Outside Students: 50rs/Head",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹50/Head </li>
+        <li> EXTERNAL STUDENTS: ₹50/Head </li>
+      </ul>
+    ),
     Contacts: "",
   };
 

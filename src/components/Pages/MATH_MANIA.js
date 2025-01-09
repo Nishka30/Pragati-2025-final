@@ -11,7 +11,12 @@ const MATH_MANIA = () => {
   const tabsContent = {
     About: "",
     Timeline: "10:00 am to 05:00 pm , 4th February .",
-    RegistrationFee: "",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹50/Head </li>
+        <li> EXTERNAL STUDENTS: ₹100/Head </li>
+      </ul>
+    ),
     Contacts: "",
   };
 

@@ -11,7 +11,12 @@ const FIFA = () => {
   const tabsContent = {
     About: "",
     Timeline: "10:00 am to 05:00 pm , 5th February .",
-    RegistrationFee: "",
+    RegistrationFee: (
+      <ul>
+        <li>MCKVIE STUDENTS: ₹50/Head </li>
+        <li> EXTERNAL STUDENTS: ₹100/Head </li>
+      </ul>
+    ),
     Contacts: "For any query contact:",
   };
 
