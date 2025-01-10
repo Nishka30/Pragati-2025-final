@@ -336,3 +336,37 @@ justify-content: center;
 gap: 150px;
 
  }
+
+ @media (max-width: 480px) {
+
+  .contacts {
+    display: block;
+    height: auto;
+  }
+  .inside{
+    margin-top: 10px;
+  }
+  .cont-1 {
+    width: 100%;
+    padding: 2px;
+    
+  }
+  .cont-1 p{
+    text-align: justify;
+    color: rgb(175, 171, 171);
+  }
+
+  .cont-2 {
+    width: 100%;
+    padding: 2px;
+    
+  }
+  .part2{
+    display: grid;
+    gap: 20px;
+    padding-top: 25px;
+  }
+  .part3{
+
+  }
+ }
