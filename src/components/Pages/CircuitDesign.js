@@ -18,7 +18,10 @@ const CircuitDesign = () => {
         <li> EXTERNAL STUDENTS: ₹50/Head </li>
       </ul>
     ),
-    Contacts: "",
+    Contacts: (<ul>
+    <li>Rohit Santra: +91 6290644016</li>
+    <li>Argha Ghosh: +91 6290191370</li>
+  </ul>),
   };
 
   const card = {

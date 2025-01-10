@@ -18,8 +18,11 @@ const InnovativeModelCompetition = () => {
         <li> EXTERNAL STUDENTS: ₹200/Team </li>
       </ul>
     ),
-    Contacts:
-      "For any query contact: Kunal Das: +91 6289974806 Parna Biswas: +917439453055",
+    Contacts:(
+       <ul>
+    <li>Kunal Das: +91 6289974806</li>
+    <li>Parna Biswas: +91 7439453055</li>
+  </ul>),
   };
 
   const card = {

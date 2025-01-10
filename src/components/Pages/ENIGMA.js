@@ -12,7 +12,10 @@ const ENIGMA = () => {
     About: "🕵‍♀ Enigma: The Ultimate Treasure Hunt! Get ready to dive into the most thrilling ⚡ Treasure hunt as Enigma, presented by PRAGATI 2025, the Annual Technical Fest of MCKV Institute of Engineering (MCKVIE)",
     Timeline: "10:00 am to 05:00 pm , 5th February .",
     RegistrationFee: "₹50 per head (in-house & external participants).",
-    Contacts: "Parna Biswas - +91 7439453055, Aritra Chatterjee - +91 62977 14155",
+    Contacts: (<ul>
+      <li>Parna Biswas: +91 7439453055</li>
+      <li>Aritra Chatterjee: +91 6297714155</li>
+    </ul>),
   };
 
   const card = {

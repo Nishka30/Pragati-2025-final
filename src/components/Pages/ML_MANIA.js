@@ -18,7 +18,10 @@ const ML_MANIA = () => {
         <li> EXTERNAL STUDENTS: ₹100/Head </li>
       </ul>
     ),
-    Contacts: "For any query contact:",
+    Contacts: (<ul>
+    <li>Sakangsa Parui: +91 6289833095</li>
+    <li>Seanti Ghosh: +91 9748662318</li>
+  </ul>),
   };
 
   const card = {

@@ -18,7 +18,11 @@ const CHASE_THE_MAZE = () => {
         <li> EXTERNAL STUDENTS: ₹400/Team </li>
       </ul>
     ),
-    Contacts: "AHELEE MUKHERJEE : +91 8274819991, ROHAN SASMAL : +91 84207 67816, APURBA BAIRAGYA : +91 7076435759",
+    Contacts: (<ul>
+      <li>Ahelee Mukherjee: +91 8274819991</li>
+      <li>Rohan Sasmal: +91 8420767816</li>
+      <li>Apurba Bairagya: +91 7076435759</li>
+    </ul>),
   };
 
   const card = {

@@ -18,7 +18,10 @@ const NFS_MOSTWANTED = () => {
         <li> EXTERNAL STUDENTS: ₹100/Head </li>
       </ul>
     ),
-    Contacts: "Soumyadip Dara : +91 8513927347, Partha Sarathi Hazra: +91 7044940669",
+    Contacts:   <ul>
+    <li>Soumyadip Dara: +91 8513927347</li>
+    <li>Partha Sarathi Hazra: +91 7044940669</li>
+  </ul>,
   };
 
   const card = {

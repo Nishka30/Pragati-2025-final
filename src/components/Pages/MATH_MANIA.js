@@ -17,7 +17,10 @@ const MATH_MANIA = () => {
         <li> EXTERNAL STUDENTS: ₹100/Head </li>
       </ul>
     ),
-    Contacts: "Anusmita Adhikary (6289784580), Rupsa Nandy (9007413395)",
+    Contacts: (  <ul>
+      <li>Anusmita Adhikary: (6289784580)</li>
+      <li>Rupsa Nandy: (9007413395)</li>
+    </ul>),
   };
 
   const card = {

@@ -19,7 +19,12 @@ const InnovativeIdeaContest = () => {
       </ul>
     ),
 
-    Contacts: "For any query contact: SANKALP KUMAR YADAV +91 8420332119, ASHUTOSH TIWARI +91 7294896723, RUPSA NANDY +91 9007413395, ANUSMITA ADHIKARY +91 6289784580 ",
+    Contacts: (<ul>
+      <li>Sankalp Kumar Yadav: +91 8420332119</li>
+      <li>Ashutosh Tiwari: +91 7294896723</li>
+      <li>Rupsa Nandy: +91 9007413395</li>
+      <li>Anusmita Adhikary: +91 6289784580</li>
+    </ul>),
   };
 
   const card = {
