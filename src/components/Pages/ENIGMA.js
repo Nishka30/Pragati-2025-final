@@ -19,7 +19,7 @@ const ENIGMA = () => {
     id: 1,
     image: eventImage, // Replace with actual image URL
     rating: "team : 2-3",
-    title: "ENIGMA",
+    title: "ENIGMA (Treasure Hunt)",
   };
 
   return (

@@ -25,7 +25,7 @@ const QUIZOMANIA = () => {
     id: 1,
     image: eventImage, // Replace with actual image URL
     rating: "team : 2-3",
-    title: "QUIZOMANIA",
+    title: "QUIZOMANIA (General and Technical Quiz)",
   };
 
   return (
