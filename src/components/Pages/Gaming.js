@@ -21,13 +21,13 @@ const Innovation = () => {
       <div className="cardEvent__grid">
         <Card
           image={NFS_MOSTWANTED}
-          title="NFS-MOST WANTED"
+          title="NFS (MOST WANTED)"
           description="SOLO PATICIPATION, GAMING"
           link="/NFS_MOSTWANTED"  // unique link for this card
         />
         <Card
           image={eFootball}
-          title="E FOOTBALL"
+          title="eFOOTBALL Mobile 2025"
           description="SOLO PATICIPATION, GAMING"
           link="/FIFA"  // unique link for this card
         />

@@ -22,13 +22,13 @@ const Innovation = () => {
       <div className="cardEvent__grid">
         <Card
           image={ENIGMA}
-          title="ENIGMA"
+          title="Enigma (Treasure Hunt)"
           description="TEAM:: (2-3), QUIZ AND MATH APTITUDE"
           link="/ENIGMA"  // unique link for this card
         />
         <Card
           image={QUIZOMANIA}
-          title="QUIZOMANIA"
+          title="Quizomania (General and Technical Quiz)"
           description="TEAM:: (1-3), QUIZ AND MATH APTITUDE"
           link="/QUIZOMANIA"  // unique link for this card
         />
