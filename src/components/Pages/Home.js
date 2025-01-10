@@ -5,7 +5,6 @@ import Footer from "../Footer";
 import Background from "./Background";
 import Background2 from "./Background2";
 import sp1 from "../images/hp2.png";
-import Marquee from "../Marquee";
 
 export const Home = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -44,7 +43,6 @@ export const Home = () => {
     <div>
       <Background />
       <Background2 />
-      <Marquee />
       {/* <Marquee /> */}
       <div className="pages">
         <div className="segment1">
@@ -81,7 +79,6 @@ export const Home = () => {
               </div>
             </div>
           </div>
-
           <div className="segment1-1-1">
             <div className="segment1-100-1">
               <div>
