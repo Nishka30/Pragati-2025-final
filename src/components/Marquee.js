@@ -29,7 +29,7 @@ function Marquee() {
             Time management of playing the overlapping events is the sole
             responsibility of the participant. If a student misses any event
             because of time overlapping then no blame can be imposed onto the
-            organizing committee or on the institution.
+            organizing committee or on the institution.
           </marquee>
         </div>
       </nav>
@@ -37,7 +37,7 @@ function Marquee() {
       {/* Second Marquee below the navbar */}
       <div className="secondary-marquee">
         <marquee direction="left" scrollamount="7">
-          The last date for registration and payment for MCKV students is 27th
+          The last date for registration and payment for MCKVIE students is 27th
           January. No further submissions will be accepted beyond this date
         </marquee>
       </div>
