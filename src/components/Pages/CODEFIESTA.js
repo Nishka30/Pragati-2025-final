@@ -18,7 +18,7 @@ const CODEFIESTA = () => {
         <li> EXTERNAL STUDENTS: ₹100/Head </li>
       </ul>
     ),
-    Contacts: "",
+    Contacts: "Himanshu Kumar Thakur: 70032 39726",
   };
 
   const card = {

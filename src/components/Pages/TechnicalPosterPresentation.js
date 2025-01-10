@@ -18,7 +18,7 @@ const TechnicalPosterPresentation = () => {
         <li> EXTERNAL STUDENTS: ₹200/Team </li>
       </ul>
     ),
-    Contacts: "For any query contact:",
+    Contacts: "For any query contact:  Sourav Ghosh: +91 9123737575, Lalita Bhattacharya: +918981511092",
   };
 
   const card = {

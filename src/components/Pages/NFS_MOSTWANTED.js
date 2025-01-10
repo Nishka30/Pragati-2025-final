@@ -18,14 +18,14 @@ const NFS_MOSTWANTED = () => {
         <li> EXTERNAL STUDENTS: ₹100/Head </li>
       </ul>
     ),
-    Contacts: "",
+    Contacts: "Soumyadip Dara : +91 8513927347, Partha Sarathi Hazra: +91 7044940669",
   };
 
   const card = {
     id: 1,
     image: eventImage, // Replace with actual image URL
     rating: "team : Solo",
-    title: "NFS-MOST WANTED",
+    title: "NFS (MOST WANTED)",
   };
 
   return (

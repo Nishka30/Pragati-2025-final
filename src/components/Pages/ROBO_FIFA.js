@@ -18,7 +18,7 @@ const ROBO_FIFA = () => {
         <li> EXTERNAL STUDENTS: ₹400/Team </li>
       </ul>
     ),
-    Contacts: "For any query contact:",
+    Contacts: "AHELEE MUKHERJEE (+91 8274819991), ROHAN SASMAL (+91 84207 67816), APURBA BAIRAGYA (+91 7076435759)",
   };
 
   const card = {

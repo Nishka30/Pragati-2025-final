@@ -9,7 +9,7 @@ const FIFA = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "",
+    About: " ⚽🔥Your Game, Your Strategy, Your Victory! 🎉Are you ready to kick off an unforgettable gaming experience? As part of our vibrant PRAGATI 2025, we are thrilled to present eFOOTBALL Mobile 2025⚽– the ultimate virtual football tournament!🎮⚡ ",
     Timeline: "10:00 am to 05:00 pm , 5th February .",
     RegistrationFee: (
       <ul>
@@ -17,7 +17,7 @@ const FIFA = () => {
         <li> EXTERNAL STUDENTS: ₹100/Head </li>
       </ul>
     ),
-    Contacts: "For any query contact:",
+    Contacts: "Rounak Bhadra: +917439249804",
   };
 
   const card = {

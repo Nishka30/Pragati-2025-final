@@ -9,7 +9,7 @@ const MATH_MANIA = () => {
   const [activeTab, setActiveTab] = useState("About");
 
   const tabsContent = {
-    About: "",
+    About: "👨‍🏫 Solve the Problem, Conquer the Chaos! Put on your thinking caps and get ready for Math Mania—a thrilling journey of numbers, puzzles, and logic presented by PRAGATI 2025 starting from 4th to 6th February 2025! 🧮✨ Compete with the sharpest minds and show off your problem-solving skills. It's not just about calculations; it’s about strategy, teamwork, and creativity! 💡💪",
     Timeline: "10:00 am to 05:00 pm , 4th February .",
     RegistrationFee: (
       <ul>
@@ -17,7 +17,7 @@ const MATH_MANIA = () => {
         <li> EXTERNAL STUDENTS: ₹100/Head </li>
       </ul>
     ),
-    Contacts: "",
+    Contacts: "Anusmita Adhikary (6289784580), Rupsa Nandy (9007413395)",
   };
 
   const card = {
