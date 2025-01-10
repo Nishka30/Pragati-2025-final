@@ -5,7 +5,7 @@ import Footer from "../Footer";
 import Background from "./Background";
 import Background2 from "./Background2";
 import sp1 from "../images/hp2.png";
-import sp2 from "../images/nike.jpg";
+import Marquee from "../Marquee";
 
 export const Home = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -44,6 +44,8 @@ export const Home = () => {
     <div>
       <Background />
       <Background2 />
+      <Marquee />
+      {/* <Marquee /> */}
       <div className="pages">
         <div className="segment1">
           <div className="segment1-1" style={{ zIndex: 10 }}>
@@ -86,16 +88,15 @@ export const Home = () => {
                 <h1>Pragati 2025 Sponsor</h1>
                 <br />
                 <br />
-              <div className="sponsor-cell-out">
-                <div className="sponsor-cell">
-                  <img
-                    src={sp1}
-                    alt="Description of image"
-                    className="sponsor-images"
-                  />
-                 
+                <div className="sponsor-cell-out">
+                  <div className="sponsor-cell">
+                    <img
+                      src={sp1}
+                      alt="Description of image"
+                      className="sponsor-images"
+                    />
+                  </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>

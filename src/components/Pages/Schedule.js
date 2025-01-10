@@ -23,21 +23,21 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              From 09:00 am - 09:30 am, participant registration will continue
-              at Amtala in MCKVIE College campus. Participants are requested to
-              bring valid college ID to register at the registration desk.
+              From 09:00 am - 09:30 am, participant registration for outside
+              college will continue at Amtala in MCKVIE College campus.
+              Participants are requested to bring valid college ID to register
+              at the registration desk.
             </li>
           </ul>
         ),
       },
       {
-        title:
-          "09:30 AM - 10:00 AM IST - Inauguration Program (Malay Manch/ Seminar Hall, Room: B-312)",
+        title: "09:30 AM - 10:00 AM IST - Inauguration Program of Pragati-2025",
         description: (
           <ul>
             <li>
               Inauguration program of PRAGATI 2025, the annual techfest of
-              MCKVIE will begin at the Seminar Hall (Room: B312).
+              MCKVIE will begin.
             </li>
           </ul>
         ),
@@ -202,8 +202,8 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              From 09:00 am - 10:00 am, participant registration will continue
-              at Amtala in MCKVIE College campus.
+              From 09:00 am - 09:30 am, participant registration for outside
+              college will continue at Amtala in MCKVIE College campus.
             </li>
           </ul>
         ),
@@ -377,8 +377,8 @@ export const Schedule = () => {
         description: (
           <ul>
             <li>
-              From 09:00 am - 10:00 am, participant registration will continue
-              at Amtala in MCKVIE College campus.
+              From 09:00 am - 09:30 am, participant registration for outside
+              college will continue at Amtala in MCKVIE College campus.
             </li>
           </ul>
         ),
