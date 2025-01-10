@@ -37,7 +37,6 @@ import FIFA from "./components/Pages/FIFA"; // Component of /Gaming
 import ROBO_FIFA from "./components/Pages/ROBO_FIFA"; // Component of /Robotics
 import ROBO_WAR from "./components/Pages/ROBO_WAR"; // Component of /Robotics
 import CHASE_THE_MAZE from "./components/Pages/CHASE_THE_MAZE"; // Component of /Robotics
-import Notice from "./components/Pages/Notice";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -55,7 +54,7 @@ function App() {
     <Router>
       <NavBar />
       <MouseShadow />
-      <Notice />
+      {/* <Notice /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
