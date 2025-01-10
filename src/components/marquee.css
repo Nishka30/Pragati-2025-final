@@ -1,0 +1,42 @@
+/* Navbar styles */
+.marquee {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: background-color 0.3s ease, backdrop-filter 1s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-marquee {
+    overflow: hidden;
+    font-size: 1.2rem;
+    color: #9AE202;
+    font-weight: bold;
+  }
+  /* Secondary marquee styles */
+.secondary-marquee {
+    background-color: rgba(0, 0, 0, 0.8); /* Optional dark background for contrast */
+    padding: 10px 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  
+  .secondary-marquee marquee {
+    font-size: 1.2rem;
+    color: #9AE202;
+    font-weight: bold;
+  }
+  
+  

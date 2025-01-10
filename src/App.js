@@ -18,7 +18,6 @@ import Robotics from "./components/Pages/Robotics";
 import Preloader from "./components/Preloader"; // Import Preloader component
 import { Members } from "./components/Pages/Members";
 
-
 import CODEFIESTA from "./components/Pages/CODEFIESTA"; // Component of /CodingAndEngineering
 import CATIA_desginContest from "./components/Pages/CATIA_desginContest"; // Component of /CodingAndEngineering
 import CircuitDesign from "./components/Pages/CircuitDesign"; // Component of /CodingAndEngineering
@@ -75,27 +74,31 @@ function App() {
         <Route path="/gaming" element={<Gaming />} />
         <Route path="/robotics" element={<Robotics />} />
         <Route path="/members" element={<Members />} />{" "}
-        
         <Route path="/CODEFIESTA" element={<CODEFIESTA />} />
         <Route path="/CATIA_desginContest" element={<CATIA_desginContest />} />
         <Route path="/CircuitDesign" element={<CircuitDesign />} />
         <Route path="/ML_MANIA" element={<ML_MANIA />} />
         {/* Component of /CodingAndEngineering */}
-
-        <Route path="/InnovativeIdeaContest" element={<InnovativeIdeaContest />} />
-        <Route path="/InnovativeModelCompetition" element={<InnovativeModelCompetition />} />
-        <Route path="/TechnicalPosterPresentation" element={<TechnicalPosterPresentation />} />
+        <Route
+          path="/InnovativeIdeaContest"
+          element={<InnovativeIdeaContest />}
+        />
+        <Route
+          path="/InnovativeModelCompetition"
+          element={<InnovativeModelCompetition />}
+        />
+        <Route
+          path="/TechnicalPosterPresentation"
+          element={<TechnicalPosterPresentation />}
+        />
         {/* Component of /Innovation */}
-
         <Route path="/ENIGMA" element={<ENIGMA />} />
         <Route path="/QUIZOMANIA" element={<QUIZOMANIA />} />
         <Route path="/MATH_MANIA" element={<MATH_MANIA />} />
         {/* Component of /QuizAndMathAptitude */}
-
         <Route path="/NFS_MOSTWANTED" element={<NFS_MOSTWANTED />} />
         <Route path="/FIFA" element={<FIFA />} />
         {/* Component of /Gaming */}
-
         <Route path="/ROBO_FIFA" element={<ROBO_FIFA />} />
         <Route path="/ROBO_WAR" element={<ROBO_WAR />} />
         <Route path="/CHASE_THE_MAZE" element={<CHASE_THE_MAZE />} />

@@ -182,3 +182,14 @@ border: 1px solid grey;
 .nav-logo h5{
 padding: 8px;
 }
+
+/* .nav-marquee {
+  flex: 1;
+  overflow: hidden;
+}
+
+.nav-marquee marquee {
+  font-size: 1.2rem;
+  color: #e11111;
+  font-weight: bold;
+} */
