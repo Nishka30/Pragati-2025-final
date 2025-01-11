@@ -42,7 +42,7 @@ const FIFA = () => {
           </div>
           <div className="info">
             {/* Added Heading */}
-            <h3>eFOOTBALL</h3>
+            <h3>eFOOTBALL Mobile 2025</h3>
             <div className="tabs">
               {Object.keys(tabsContent).map((tab) => (
                 <button

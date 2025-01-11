@@ -46,7 +46,7 @@ const NFS_MOSTWANTED = () => {
           </div>
           <div className="info">
             {/* Added Heading */}
-            <h3>NFS-MOST WANTED</h3>
+            <h3>NFS(MOST WANTED)</h3>
             <div className="tabs">
               {Object.keys(tabsContent).map((tab) => (
                 <button
