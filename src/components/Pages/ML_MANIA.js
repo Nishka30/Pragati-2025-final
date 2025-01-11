@@ -20,7 +20,7 @@ const ML_MANIA = () => {
     ),
     Contacts: (<ul>
     <li>Sakangsa Parui: +91 6289833095</li>
-    <li>Seanti Ghosh: +91 9748662318</li>
+    <li>Semanti Ghosh: +91 9748662318</li>
   </ul>),
   };
 
