@@ -105,7 +105,7 @@ export const Home = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                  <button className="btn">Sponsorship details</button>
+                  <button className="btn">Sponsorship Proposal</button>
                   </a>
                 </div>
                 </div>
