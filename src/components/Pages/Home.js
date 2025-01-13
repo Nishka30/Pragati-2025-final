@@ -7,6 +7,7 @@ import Background2 from "./Background2";
 import sp1 from "../images/hp2.png";
 import Marquee from "../Marquee";
 
+
 export const Home = () => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -94,6 +95,20 @@ export const Home = () => {
                       className="sponsor-images"
                     />
                   </div>
+                </div>
+                <div className="sponsor-btn-cell">
+                  <div className="sponsor-cell">
+                
+                <div className="button-group">
+                  <a
+                    href="https://drive.google.com/file/d/1v3x7fxEw8-BMkjUma3Z-0fwxu2HRR4iD/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                  <button className="btn">Sponsorship details</button>
+                  </a>
+                </div>
+                </div>
                 </div>
               </div>
             </div>

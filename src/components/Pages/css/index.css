@@ -587,6 +587,42 @@
 }
 }
 
+.sponsor-btn-cell {
+  width: 90%; /* Adjusted for smaller screens */
+  max-width: 330px; /* Limits maximum width */
+  height: auto; /* Makes height flexible */
+  aspect-ratio: 3 / 2; /* Ensures consistent ratio */
+  background-color:transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  border-radius: 14px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* Media query for screens smaller than 768px (tablets and phones) */
+@media (max-width: 768px) {
+  .sponsor-btn-cell {
+    width: 80%; /* Makes it occupy a larger portion of smaller screens */
+    max-width: none; /* Removes the max-width limit */
+    border-radius: 10px; /* Slightly smaller border radius */
+  }
+}
+
+/* Media query for screens smaller than 480px (phones) */
+@media (max-width: 480px) {
+  .sponsor-btn-cell {
+    width: 100%; /* Utilizes full width on very small screens */
+    border-radius: 8px; /* Further reduces the border radius */
+  }
+  .segment1-1000-1 {
+   padding: 20px;
+}
+}
+
 
 
 
