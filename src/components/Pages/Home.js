@@ -5,6 +5,9 @@ import Footer from "../Footer";
 import Background from "./Background";
 import Background2 from "./Background2";
 import sp1 from "../images/hp2.png";
+import cyberplay from "../images/cyberplay.jpg";
+import ddc from "../images/ddc.jpg";
+import iet from "../images/iet.jpg";
 import Marquee from "../Marquee";
 
 
@@ -83,10 +86,11 @@ export const Home = () => {
           </div>
           <div className="segment1-1-1">
             <div className="segment1-100-1">
-              <div>
+              <div className="spon">
                 <h1>Pragati 2025 Sponsor</h1>
                 <br />
                 <br />
+                <div className="sponsor-flex">
                 <div className="sponsor-cell-out">
                   <div className="sponsor-cell">
                     <img
@@ -96,6 +100,36 @@ export const Home = () => {
                     />
                   </div>
                 </div>
+
+                <div className="sponsor-cell-out">
+                  <div className="sponsor-cell">
+                    <img
+                      src={cyberplay}
+                      alt="Description of image"
+                      className="sponsor-images"
+                    />
+                  </div>
+                </div>
+                <div className="sponsor-cell-out">
+                  <div className="sponsor-cell">
+                    <img
+                      src={ddc}
+                      alt="Description of image"
+                      className="sponsor-images"
+                    />
+                  </div>
+                </div>
+                <div className="sponsor-cell-out">
+                  <div className="sponsor-cell">
+                    <img
+                      src={iet}
+                      alt="Description of image"
+                      className="sponsor-images-iet"
+                    />
+                  </div>
+                </div>
+
+              </div>
                 <div className="sponsor-btn-cell">
                   <div className="sponsor-cell">
                 
