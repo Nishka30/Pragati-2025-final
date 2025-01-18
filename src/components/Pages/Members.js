@@ -5,10 +5,10 @@ import Background from "./Background";
 import Background2 from "./Background2";
 import snsupratim from "../members/snsupratim.jpg";
 import Rakesh_Mandal from "../members/Rakesh_Mandal.jpg";
-import Akash_Banerjee from "../members/Akash_Banerjee.jpg";
+import Akash_Banerjee from "../members/akash da.jpg";
 import Nishka_Shrimali from "../members/Nishka_shrimali.jpg";
 import Aayushman_Baruah from "../members/Aayushman_Baruah.jpg";
-import Madhuparna_Das from "../members/20250105_133115_499 - Madhuparna Das_1.jpg";
+import Madhuparna_Das from "../members/md.jpeg";
 import Ahelee_Mukherjee from "../members/Ahelee_Mukherjee.jpg";
 import Anirban_Dey from "../members/Anirban_Dey.jpg";
 import Antak_Rakshit from "../members/Antak_Rakshit.jpg";
@@ -31,6 +31,11 @@ import Somnath_Paul from "../members/Somnath_Paul.jpg";
 import Lalita_Bhattacharya from "../members/IMG_20241224_114637 - Lalita Bhattacharya.jpg";
 import Pallav_Kundu from "../members/IMG_20241130_102835735_HDR - Pallav Kundu.jpg";
 import Sohamdeep_Das from "../members/sohamdeep.jpg";
+import anirban from "../members/anirban.jpeg";
+import anirudha from "../members/ANIRUDHA.jpeg";
+import argha_kamal from "../members/Argha kamal.jpeg";
+import debendra from "../members/debendra.jpeg";
+import saraswat from "../members/SARASWAT.jpeg";
 export const Members = () => {
   return (
     <div>
@@ -197,35 +202,204 @@ export const Members = () => {
                   </div>
                 </div>
               </section>
+
+              {/* desgin team */}
+
+              <section className="team-section">
+                <h2 className="section-title">Design Team</h2>
+                <div className="team-container">
+                  {/* Tech Team Members */}
+                
+
+                  <div className="team-member">
+  <div className="member-photo">
+    <img
+      src={Madhuparna_Das}
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Madhuparna Das</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">CSE</p>
+    <div className="member-social">
+      <a
+        href="https://wa.me/+919875317470"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-icon whatsapp"
+      >
+        <FaWhatsapp />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div className="team-member">
+  <div className="member-photo">
+    <img
+      src="r.jpeg"
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Rupsa Nandy</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">CSE</p>
+    <div className="member-social">
+    <a
+        href="https://wa.me/+919007413395"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-icon whatsapp"
+      >
+        <FaWhatsapp />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div className="team-member">
+  <div className="member-photo">
+    <img
+      src={Anusmita_Adhikary}
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Anusmita Adhikary</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">CSE</p>
+    <div className="member-social">
+    <a
+        href="https://wa.me/+916289784580"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-icon whatsapp"
+      >
+        <FaWhatsapp />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div className="team-member">
+  <div className="member-photo">
+    <img
+      src={debendra}
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Debendra Banerjee</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">ME</p>
+    <div className="member-social"></div>
+  </div>
+</div>
+
+<div className="team-member">
+  <div className="member-photo">
+    <img
+      src=""
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Sristi Sarkar</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">CSE-DS</p>
+    <div className="member-social"></div>
+  </div>
+</div>
+
+<div className="team-member">
+  <div className="member-photo">
+    <img
+      src={anirban}
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Anirban Chakraborty</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">CSE-AIML</p>
+    <div className="member-social"></div>
+  </div>
+</div>
+
+<div className="team-member">
+  <div className="member-photo">
+    <img
+      src={argha_kamal}
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Argha Kamal Saha</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">CSE</p>
+    <div className="member-social"></div>
+  </div>
+</div>
+
+<div className="team-member">
+  <div className="member-photo">
+    <img
+      src={anirudha}
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Aniruddh Patra</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">ECE</p>
+    <div className="member-social"></div>
+  </div>
+</div>
+
+<div className="team-member">
+  <div className="member-photo">
+    <img
+      src={saraswat}
+      alt="Tech Team Member"
+      className="member-img"
+    />
+  </div>
+  <div className="member-info">
+    <h3 className="member-name">Saraswat Chatterjee</h3>
+    <p className="member-role">Designer</p>
+    <p className="member-roll">ECE</p>
+    <div className="member-social"></div>
+  </div>
+</div>
+
+
+
+                 
+                </div>
+              </section>
+
+
+
+
+
+
+
               {/* Event Organizers Section */}
               <section className="team-section">
                 <h2 className="section-title">Event Organizers</h2>
                 <div className="team-container">
                   {/* Event Organizers */}
-                  <div className="team-member">
-                    <div className="member-photo">
-                      <img
-                        src={Nishka_Shrimali}
-                        alt="Event Organizer"
-                        className="member-img"
-                      />
-                    </div>
-                    <div className="member-info">
-                      <h3 className="member-name">Nishka Shrimali</h3>
-                      <p className="member-role">Organizer</p>
-                      <p className="member-roll">CSE</p>
-                      <div className="member-social">
-                        <a
-                          href="https://wa.me/+916291764011"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon whatsapp"
-                        >
-                          <FaWhatsapp />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                  
                   <div className="team-member">
                     <div className="member-photo">
                       <img
@@ -278,6 +452,34 @@ export const Members = () => {
                   <div className="team-member">
                     <div className="member-photo">
                       <img
+                        src={Nishka_Shrimali}
+                        alt="Event Organizer"
+                        className="member-img"
+                      />
+                    </div>
+                    <div className="member-info">
+                      <h3 className="member-name">Nishka Shrimali</h3>
+                      <p className="member-role">Organizer</p>
+                      <p className="member-roll">CSE</p>
+                      <div className="member-social">
+                        <a
+                          href="https://wa.me/+916291764011"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="social-icon whatsapp"
+                        >
+                          <FaWhatsapp />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div className="team-member">
+                    <div className="member-photo">
+                      <img
                         src={Madhuparna_Das}
                         alt="Event Organizer"
                         className="member-img"
@@ -299,6 +501,59 @@ export const Members = () => {
                       </div>
                     </div>
                   </div>
+
+
+                  <div className="team-member">
+                    <div className="member-photo">
+                      <img
+                        src="r.jpeg"
+                        alt="Event Organizer"
+                        className="member-img"
+                      />
+                    </div>
+                    <div className="member-info">
+                      <h3 className="member-name">Rupsa Nandy</h3>
+                      <p className="member-role">Organizer</p>
+                      <p className="member-roll">CSE</p>
+                      <div className="member-social">
+                        <a
+                          href="https://wa.me/+919007413395"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="social-icon whatsapp"
+                        >
+                          <FaWhatsapp />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="team-member">
+                    <div className="member-photo">
+                      <img
+                        src="0-Anusmita.jpg"
+                        alt="Event Organizer"
+                        className="member-img"
+                      />
+                    </div>
+                    <div className="member-info">
+                      <h3 className="member-name">Anusmita Adhikary</h3>
+                      <p className="member-role">Organizer</p>
+                      <p className="member-roll">CSE</p>
+                      <div className="member-social">
+                        <a
+                          href="https://wa.me/+916289784580"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="social-icon whatsapp"
+                        >
+                          <FaWhatsapp />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
 
                   <div className="team-member">
                     <div className="member-photo">
@@ -398,30 +653,7 @@ export const Members = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="team-member">
-                    <div className="member-photo">
-                      <img
-                        src="0-Anusmita.jpg"
-                        alt="Event Organizer"
-                        className="member-img"
-                      />
-                    </div>
-                    <div className="member-info">
-                      <h3 className="member-name">Anusmita Adhikary</h3>
-                      <p className="member-role">Organizer</p>
-                      <p className="member-roll">CSE</p>
-                      <div className="member-social">
-                        <a
-                          href="https://wa.me/+916289784580"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon whatsapp"
-                        >
-                          <FaWhatsapp />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                 
                   <div className="team-member">
                     <div className="member-photo">
                       <img
@@ -783,30 +1015,7 @@ export const Members = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="team-member">
-                    <div className="member-photo">
-                      <img
-                        src="r.jpeg"
-                        alt="Event Organizer"
-                        className="member-img"
-                      />
-                    </div>
-                    <div className="member-info">
-                      <h3 className="member-name">Rupsa Nandy</h3>
-                      <p className="member-role">Organizer</p>
-                      <p className="member-roll">CSE</p>
-                      <div className="member-social">
-                        <a
-                          href="https://wa.me/+919007413395"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon whatsapp"
-                        >
-                          <FaWhatsapp />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                 
                   <div className="team-member">
                     <div className="member-photo">
                       <img
