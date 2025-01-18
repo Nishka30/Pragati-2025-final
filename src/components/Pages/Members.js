@@ -36,6 +36,8 @@ import anirudha from "../members/ANIRUDHA.jpeg";
 import argha_kamal from "../members/Argha kamal.jpeg";
 import debendra from "../members/debendra.jpeg";
 import saraswat from "../members/SARASWAT.jpeg";
+import Sristi from "../members/sristi.jpg";
+
 export const Members = () => {
   return (
     <div>
@@ -305,7 +307,7 @@ export const Members = () => {
 <div className="team-member">
   <div className="member-photo">
     <img
-      src=""
+      src={Sristi}
       alt="Tech Team Member"
       className="member-img"
     />
