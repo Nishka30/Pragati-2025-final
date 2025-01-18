@@ -30,13 +30,15 @@ import Rohit_Santra from "../members/Rohit_Santra.jpg";
 import Somnath_Paul from "../members/Somnath_Paul.jpg";
 import Lalita_Bhattacharya from "../members/IMG_20241224_114637 - Lalita Bhattacharya.jpg";
 import Pallav_Kundu from "../members/IMG_20241130_102835735_HDR - Pallav Kundu.jpg";
-import Sohamdeep_Das from "../members/sohamdeep.jpg";
+import Sohamdeep_Das from "../members/Sohamdeep.jpeg";
 import anirban from "../members/anirban.jpeg";
 import anirudha from "../members/ANIRUDHA.jpeg";
 import argha_kamal from "../members/Argha kamal.jpeg";
 import debendra from "../members/debendra.jpeg";
 import saraswat from "../members/SARASWAT.jpeg";
 import Sristi from "../members/sristi.jpg";
+import Argha_ghosh from "../members/Argha ghosh.jpeg";
+
 
 export const Members = () => {
   return (
@@ -361,7 +363,7 @@ export const Members = () => {
     />
   </div>
   <div className="member-info">
-    <h3 className="member-name">Aniruddh Patra</h3>
+    <h3 className="member-name">Anirudha Patra</h3>
     <p className="member-role">Designer</p>
     <p className="member-roll">ECE</p>
     <div className="member-social"></div>
@@ -1264,7 +1266,7 @@ export const Members = () => {
                   <div className="team-member">
                     <div className="member-photo">
                       <img
-                        src=""
+                        src={Sohamdeep_Das}
                         alt="Event Organizer"
                         className="member-img"
                       />
@@ -1285,30 +1287,7 @@ export const Members = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="team-member">
-                    <div className="member-photo">
-                      <img
-                        src=""
-                        alt="Event Organizer"
-                        className="member-img"
-                      />
-                    </div>
-                    <div className="member-info">
-                      <h3 className="member-name">Ankit Bijli</h3>
-                      <p className="member-role">Organizer</p>
-                      <p className="member-roll"></p>
-                      <div className="member-social">
-                        <a
-                          href="https://wa.me/1234567890"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-icon whatsapp"
-                        >
-                          <FaWhatsapp />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                  
                   <div className="team-member">
                     <div className="member-photo">
                       <img
@@ -1336,7 +1315,7 @@ export const Members = () => {
                   <div className="team-member">
                     <div className="member-photo">
                       <img
-                        src=""
+                        src={Argha_ghosh}
                         alt="Event Organizer"
                         className="member-img"
                       />
