@@ -25,12 +25,13 @@ function Marquee() {
       <nav className={`marquee ${scrolled ? "scrolled" : ""}`}>
         <div className="nav-marquee">
           <marquee direction="left" scrollamount="7">
-          💠Overlapping events must be taken care of during online registration.
-            Time management of playing the overlapping events is the sole
-            responsibility of the participant. If a student misses any event
-            because of time overlapping then no blame can be imposed onto the
-            organizing committee or on the institution.💠The last date for registration and payment for MCKVIE students is 27th
-            January. No further submissions will be accepted beyond this date.
+            💠Overlapping events must be taken care of during online
+            registration. Time management of playing the overlapping events is
+            the sole responsibility of the participant. If a student misses any
+            event because of time overlapping then no blame can be imposed onto
+            the organizing committee or on the institution.💠The last date for
+            registration and payment for MCKVIE students is 30th January. No
+            further submissions will be accepted beyond this date.
           </marquee>
         </div>
       </nav>

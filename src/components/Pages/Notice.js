@@ -31,7 +31,7 @@ const Notice = () => {
             </p>
             <p>
               💠The last date for registration and payment for MCKVIE students
-              is 27th January. No further submissions will be accepted beyond
+              is 30th January. No further submissions will be accepted beyond
               this date.
             </p>
             <button className="close-button" onClick={toggleModal}>
