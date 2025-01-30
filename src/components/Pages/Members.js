@@ -9,7 +9,7 @@ import Akash_Banerjee from "../members/akash da.jpg";
 import Nishka_Shrimali from "../members/Nishka_shrimali.jpg";
 import Aayushman_Baruah from "../members/Aayushman_Baruah.jpg";
 import Madhuparna_Das from "../members/md.jpeg";
-import Ahelee_Mukherjee from "../members/Ahelee_Mukherjee.jpg";
+import Ahelee_Mukherjee from "../members/Ahelee_Mukherjee.jpeg";
 import Anirban_Dey from "../members/Anirban_Dey.jpg";
 import Antak_Rakshit from "../members/Antak_Rakshit.jpg";
 import Anusmita_Adhikary from "../members/Anusmita_Adhikary.jpg";
@@ -587,7 +587,7 @@ export const Members = () => {
                   <div className="team-member">
                     <div className="member-photo">
                       <img
-                        src="1-Ahelee.jpg"
+                        src="1-Ahelee.jpeg"
                         alt="Event Organizer"
                         className="member-img"
                       />
