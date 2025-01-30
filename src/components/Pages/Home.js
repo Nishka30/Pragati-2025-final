@@ -8,6 +8,8 @@ import sp1 from "../images/hp2.png";
 import cyberplay from "../images/cyberplay.jpg";
 import ddc from "../images/ddc.jpg";
 import iet from "../images/iet.jpg";
+import ardent from "../images/Ardent.jpg";
+import eicher from "../images/Eicher.jpg";
 import Marquee from "../Marquee";
 
 
@@ -123,6 +125,26 @@ export const Home = () => {
                   <div className="sponsor-cell">
                     <img
                       src={iet}
+                      alt="Description of image"
+                      className="sponsor-images-iet"
+                    />
+                  </div>
+                </div>
+
+                <div className="sponsor-cell-out">
+                  <div className="sponsor-cell">
+                    <img
+                      src={ardent}
+                      alt="Description of image"
+                      className="sponsor-images-iet"
+                    />
+                  </div>
+                </div>
+
+                <div className="sponsor-cell-out">
+                  <div className="sponsor-cell">
+                    <img
+                      src={eicher}
                       alt="Description of image"
                       className="sponsor-images-iet"
                     />

@@ -20,7 +20,7 @@ import Ashutosh_Tiwari from "../members/Ashutosh_Tiwari.jpg";
 import Bijay_Nayak from "../members/Bijay_Nayak.jpg";
 import Harsh_Kumar_Singh from "../members/Harsh_Kumar_Singh.jpg";
 import Naina_Jha from "../members/Naina_Jha.jpg";
-import Himanshu_Kumar_Thakur from "../members/Himanshu_Kumar_Thakur.jpg";
+import Himanshu_Kumar_Thakur from "../members/Himanshu.jpg";
 import Kunal_Das from "../members/Kunal_Das.jpeg";
 import Rohit_Kumar from "../members/Rohit_Kumar.jpg";
 import Parna_Biswas from "../members/Parna_Biswas.jpg";
@@ -829,7 +829,7 @@ export const Members = () => {
                   <div className="team-member">
                     <div className="member-photo">
                       <img
-                        src="008-Himanshu.jpg"
+                        src={Himanshu_Kumar_Thakur}
                         alt="Event Organizer"
                         className="member-img"
                       />
